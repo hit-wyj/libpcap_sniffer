@@ -1,6 +1,4 @@
-lsniffer:lsniffer.o init.o proc.o
-	gcc -o $@ $^
-.c.o:
-	gcc -c $<
+lsniffer:
+	gcc lsniffer.c -IBase/* -IKernel/* -IConf/*
 clean:
 	rm -fr *.o lsniffer
