@@ -2,6 +2,7 @@
 #ifndef __PKT_H__
 #define __PKT_H__
 
+#include <arpa/inet.h>
 #include "htable.h"
 
 #define MAX_LINE_LEN 20
@@ -50,7 +51,7 @@ struct my_ip_header {
     u_char ip_ttl;      /* time to live */
     u_char ip_p;        /* protocol */
     u_short ip_sum;     /* checksum */
-    struct in_addr_t ip_src,ip_dst; /* source and dest address */
+    in_addr_t ip_src, ip_dst; /* source and dest address */
     
 };
 
