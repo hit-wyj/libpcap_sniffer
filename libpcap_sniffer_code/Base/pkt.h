@@ -8,6 +8,8 @@
 #define MAX_LINE_LEN 20
 #define HT_ELEMENT_NUM 2000
 #define DIFF_SECOND_NUM 180
+#define PCAP_FILE_PATH_LEN 30
+
 
 enum _e_file_mode_{
     

@@ -13,6 +13,7 @@
 		7F385B431AE5F5CF00B13F9D /* lsniffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F385B3F1AE5F5CF00B13F9D /* lsniffer.c */; };
 		7F385B441AE5F5CF00B13F9D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7F385B401AE5F5CF00B13F9D /* Makefile */; };
 		7FE220051AE6376F00D3A5C3 /* htable.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FE220031AE6376F00D3A5C3 /* htable.c */; };
+		7FE220081AE6682200D3A5C3 /* clean.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FE220061AE6682200D3A5C3 /* clean.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		7F385B451AE5FAB500B13F9D /* mode.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mode.config; sourceTree = "<group>"; };
 		7FE220031AE6376F00D3A5C3 /* htable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = htable.c; path = ../Base/htable.c; sourceTree = "<group>"; };
 		7FE220041AE6376F00D3A5C3 /* htable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = htable.h; path = ../Base/htable.h; sourceTree = "<group>"; };
+		7FE220061AE6682200D3A5C3 /* clean.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clean.c; sourceTree = "<group>"; };
+		7FE220071AE6682200D3A5C3 /* clean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clean.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 				7F385B3B1AE5F5CF00B13F9D /* init.h */,
 				7F385B3C1AE5F5CF00B13F9D /* proc.c */,
 				7F385B3D1AE5F5CF00B13F9D /* proc.h */,
+				7FE220061AE6682200D3A5C3 /* clean.c */,
+				7FE220071AE6682200D3A5C3 /* clean.h */,
 			);
 			name = Kernel;
 			path = libpcap_sniffer_code/Kenel;
@@ -203,6 +208,7 @@
 				7FE220051AE6376F00D3A5C3 /* htable.c in Sources */,
 				7F385B411AE5F5CF00B13F9D /* init.c in Sources */,
 				7F385B421AE5F5CF00B13F9D /* proc.c in Sources */,
+				7FE220081AE6682200D3A5C3 /* clean.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
