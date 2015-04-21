@@ -13,8 +13,8 @@
 
 enum _e_file_mode_{
     
-    e_file_online = 1,
-    e_file_offline = 2
+    e_file_online = 0,
+    e_file_offline = 1
     
 };
 
