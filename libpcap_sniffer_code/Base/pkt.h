@@ -34,7 +34,7 @@ typedef struct _s_ip_ele_global_{
 
     struct sockaddr_in ip_ele;
     int ip_cnt;
-    struct s_ip_ele_gl * next;
+    struct _s_ip_ele_global_ * next;
     
 }s_ip_ele_gl;
 
@@ -53,7 +53,8 @@ struct my_ip_header {
     u_char ip_ttl;      /* time to live */
     u_char ip_p;        /* protocol */
     u_short ip_sum;     /* checksum */
-    in_addr_t ip_src, ip_dst; /* source and dest address */
+    in_addr_t ip_src;
+    in_addr_t ip_dst; /* source and dest address */
     
 };
 
